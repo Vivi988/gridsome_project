@@ -1,12 +1,15 @@
 {
   "name": "mon-projet",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "develop": "gridsome develop"
   },
   "dependencies": {
-    "gridsome": "^0.0.4"
+    "gridsome": "^0.7.23",
+    "terser-webpack-plugin": "^5.2.5"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.13"
   }
 }
